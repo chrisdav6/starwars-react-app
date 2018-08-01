@@ -1,0 +1,50 @@
+.headingContainer {
+  width: 100%;
+  max-width: 1200px;
+  height: 100vh;
+  padding: 0 1em;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #ffd700;
+  text-align: center;
+  margin: 0;
+  font-family: starwars;
+  font-size: 8rem;
+  line-height: .8;
+  border: 1px solid #ffd700;
+  padding: .5em .6em .6em .6em;
+}
+
+.arrow {
+  color: #ffd700;
+  text-decoration: none;
+  margin-top: 5em;
+  position: relative;
+  top: 0;
+  transition: .3s;
+  animation: bounce 1.5s ease-in-out infinite forwards;
+}
+
+.arrow:hover {
+  animation: none;
+  top: 5px;
+  cursor: pointer;
+  color: #edad00;
+}
+
+.arrow:hover + h1 {
+  background: red;
+}
+
+@keyframes bounce {
+  0% {top: 0;}
+  33% {top: 5px;}
+  100% {top: 0;}
+}

@@ -1,0 +1,20 @@
+@font-face {
+  font-family: starwars;
+  src: url(../fonts/Starjedi.ttf);
+}
+
+.scrolltop {
+  color: #ffd700;
+  text-decoration: none;
+  margin-top: 5em;
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+  position: fixed;
+  border: 1px solid #ffd700;
+  padding: 0 1em;
+}
+
+.scrolltop:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,43 @@
+.charactersContent {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 1em;
+  box-sizing: border-box;
+  margin: 2em auto;
+  text-align: center;
+}
+
+.characterTitle {
+  color: #ffd700;
+  text-align: center;
+  margin: 0;
+  font-family: starwars;
+  font-size: 3rem;
+  border: 1px solid #ffd700;
+  padding: .3em;
+  margin-bottom: 1em;
+  letter-spacing: 3px;
+}
+
+.character {
+  border: 1px solid #ffd700;
+  padding: 1em;
+  margin: 1em;
+  min-width: 240px;
+  display: inline-block;
+  color: #ffd700;
+  box-sizing: border-box;
+  background: rgba(255,255,255, .08);
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #ffd700; 
+}
+
+@media (max-width: 600px) {
+  .character {
+   width: 90%; 
+  }
+}
